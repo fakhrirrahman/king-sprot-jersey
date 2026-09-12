@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter lg:gap-space-xl pb-space-xl">
           <div className="lg:col-span-5 flex flex-col gap-space-md">
             <div className="flex items-baseline font-headline-md text-headline-md tracking-tight text-on-surface uppercase">
-              <span>VOLTRA</span><span className="text-primary-container text-headline-lg leading-none">.</span>
+              <span>KING SPORT JERSEY</span><span className="text-primary-container text-headline-lg leading-none">.</span>
             </div>
             <p className="font-body-md text-body-md text-on-surface-variant max-w-md">
               LAB TEKNIKAL LAPANGAN JAKARTA. Dirancang untuk kecepatan laga tarkam akar rumput Indonesia, duel intens malam hari, dan estetika streetwear berkelas. Bahan sublimasi poliester kerapatan tinggi, siluet aero presisi, dan jersey tim siap tempur.
@@ -35,20 +35,20 @@ export function Footer() {
             <p className="font-body-sm text-body-sm text-on-surface-variant">
               Terhubung langsung dengan tim produksi dan tailoring kami di Tebet, Jakarta Selatan. Custom nameset cepat dan pengiriman tim tepat waktu.
             </p>
-            <Link href="https://wa.me/6281234567890?text=Halo%20VOLTRA%20Production%20Desk" className="inline-flex items-center justify-between px-space-md py-space-sm bg-surface-container-high hover:bg-surface-container-highest text-on-surface rounded-lg font-label-caps text-label-caps uppercase tracking-wider transition-colors">
+            <Link href="https://wa.me/6281234567890?text=Halo%20KING SPORT%20Production%20Desk" className="inline-flex items-center justify-between px-space-md py-space-sm bg-surface-container-high hover:bg-surface-container-highest text-on-surface rounded-lg font-label-caps text-label-caps uppercase tracking-wider transition-colors">
               <span>MEJA PRODUKSI WHATSAPP</span>
               <MessageCircle className="w-5 h-5 text-tertiary" />
             </Link>
             <div className="flex items-center gap-space-md pt-space-xs">
-              <Link href="#" className="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors">Instagram @voltra.idn</Link>
+              <Link href="#" className="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors">Instagram @kingsport.idn</Link>
               <span className="text-outline-variant">•</span>
-              <Link href="#" className="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors">TikTok @voltra.futsal</Link>
+              <Link href="#" className="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors">TikTok @kingsport.futsal</Link>
             </div>
           </div>
         </div>
         
         <div className="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm text-on-surface-variant">
-          <p>© 2025 PT VOLTRA KREASI ATLETIKA. HAK CIPTA DILINDUNGI. JAKARTA, INDONESIA.</p>
+          <p>© 2025 PT KING SPORT KREASI ATLETIKA. HAK CIPTA DILINDUNGI. JAKARTA, INDONESIA.</p>
           <div className="flex items-center gap-space-lg font-label-caps text-label-caps uppercase">
             <Link href="#tech-specs" className="hover:text-on-surface transition-colors">SPEK TEKNIS</Link>
             <Link href="#custom-flow" className="hover:text-on-surface transition-colors">FAQ PEMESANAN TIM</Link>

@@ -107,7 +107,7 @@ export function BrandIntroSection() {
           <div className="bg-surface-container-high text-on-surface p-space-md rounded-[2rem] flex flex-col justify-between relative overflow-hidden group hover:scale-[1.01] transition-transform">
             <div className="flex items-center justify-between">
               <span className="font-label-caps text-label-caps uppercase tracking-wider font-bold text-on-surface">
-                VOLTRA REDLINE 01
+                KING SPORT REDLINE 01
               </span>
               <span className="w-8 h-8 rounded-full bg-surface text-on-surface flex items-center justify-center text-lg">
                 👕

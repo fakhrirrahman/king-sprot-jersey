@@ -1,23 +1,23 @@
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 
 export function FloatingWhatsApp() {
   return (
-    <aside className="fixed bottom-4 right-4 z-50">
-      <Link
-        href="https://wa.me/6281234567890?text=Halo%20VOLTRA,%20mau%20tanya%20jersey"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="relative flex items-center gap-2 bg-neutral-950 text-white pl-3 pr-4 py-2.5 rounded-full shadow-2xl border border-neutral-700 hover:scale-105 active:scale-95 transition-transform group"
-        aria-label="Chat directly on WhatsApp"
+    <div className="fixed bottom-6 right-6 z-40">
+      <Link 
+        href="https://wa.me/6281234567890?text=Halo%20KING SPORT%20Desk" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        className="flex items-center gap-space-xs pl-space-md pr-3 py-2.5 bg-on-surface text-surface rounded-full shadow-2xl border border-surface/20 hover:scale-105 transition-all group"
       >
-        <span className="relative flex h-3 w-3">
-          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-lime opacity-75"></span>
-          <span className="relative inline-flex rounded-full h-3 w-3 bg-brand-lime"></span>
+        <span className="w-2.5 h-2.5 rounded-full bg-primary-container animate-pulse"></span>
+        <span className="font-label-caps text-label-caps uppercase tracking-wider text-surface group-hover:text-primary-container transition-colors">
+          QUICK CHAT
         </span>
-        <span className="text-xs font-condensed font-black tracking-wider uppercase">CHAT NOW</span>
-        <ArrowUpRight className="text-brand-lime w-4 h-4 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-transform" />
+        <span className="w-7 h-7 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center ml-1">
+          <MessageCircle className="w-4 h-4" />
+        </span>
       </Link>
-    </aside>
+    </div>
   );
 }

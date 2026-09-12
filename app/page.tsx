@@ -5,7 +5,6 @@ import { BrandIntroSection } from "./components/sections/BrandIntroSection";
 import { ProductShowcaseSection } from "./components/sections/ProductShowcaseSection";
 import { PerformanceSection } from "./components/sections/PerformanceSection";
 import { CustomBuilderSection } from "./components/sections/CustomBuilderSection";
-import { HowToOrderSection } from "./components/sections/HowToOrderSection";
 import { TestimonialsSection } from "./components/sections/TestimonialsSection";
 import { CtaSection } from "./components/sections/CtaSection";
 import { FloatingWhatsApp } from "./components/FloatingWhatsApp";
@@ -14,15 +13,16 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="max-w-md mx-auto px-3.5 pb-20 pt-2 space-y-6">
-        <HeroSection />
-        <BrandIntroSection />
-        <ProductShowcaseSection />
-        <PerformanceSection />
-        <CustomBuilderSection />
-        <HowToOrderSection />
-        <TestimonialsSection />
-        <CtaSection />
+      <main className="w-full pt-20 bg-surface min-h-screen">
+        <div className="flex flex-col w-full">
+          <HeroSection />
+          <BrandIntroSection />
+          <ProductShowcaseSection />
+          <PerformanceSection />
+          <CustomBuilderSection />
+          <TestimonialsSection />
+          <CtaSection />
+        </div>
       </main>
       <Footer />
       <FloatingWhatsApp />

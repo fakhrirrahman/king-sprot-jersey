@@ -15,7 +15,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "VOLTRA. — Next-Gen Indonesian Futsal Jerseys",
+  title: "KING SPORT. — Next-Gen Indonesian Futsal Jerseys",
   description: "Next-Level Futsal Gear For Indonesian Squads",
 };
 

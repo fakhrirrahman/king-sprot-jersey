@@ -48,7 +48,7 @@ export function ProductShowcaseSection() {
               <span className="font-headline-sm text-headline-sm text-tertiary">Rp 189K</span>
             </div>
             <p className="font-body-sm text-body-sm text-on-surface-variant">Set Lengkap: Jersey + Celana Custom dengan Emblem Tim.</p>
-            <Link href="https://wa.me/6281234567890?text=Halo%20VOLTRA%2C%20saya%20tertarik%20pesan%20Redline%20Titan" className="w-full mt-2 inline-flex items-center justify-center gap-1.5 py-2 rounded-xl bg-surface-container-high hover:bg-on-surface hover:text-surface text-on-surface font-label-caps text-label-caps uppercase tracking-wider transition-all">
+            <Link href="https://wa.me/6281234567890?text=Halo%20KING SPORT%2C%20saya%20tertarik%20pesan%20Redline%20Titan" className="w-full mt-2 inline-flex items-center justify-center gap-1.5 py-2 rounded-xl bg-surface-container-high hover:bg-on-surface hover:text-surface text-on-surface font-label-caps text-label-caps uppercase tracking-wider transition-all">
               <span>PESAN VIA WHATSAPP</span>
               <ArrowUpRight className="w-4 h-4" />
             </Link>
@@ -73,7 +73,7 @@ export function ProductShowcaseSection() {
               <span className="font-headline-sm text-headline-sm text-tertiary">Rp 199K</span>
             </div>
             <p className="font-body-sm text-body-sm text-on-surface-variant">Termasuk Emblem Badge Silikon 3D Kerapatan Tinggi.</p>
-            <Link href="https://wa.me/6281234567890?text=Halo%20VOLTRA%2C%20saya%20tertarik%20pesan%20Neon%20Volt%2007" className="w-full mt-2 inline-flex items-center justify-center gap-1.5 py-2 rounded-xl bg-surface-container-high hover:bg-on-surface hover:text-surface text-on-surface font-label-caps text-label-caps uppercase tracking-wider transition-all">
+            <Link href="https://wa.me/6281234567890?text=Halo%20KING SPORT%2C%20saya%20tertarik%20pesan%20Neon%20Volt%2007" className="w-full mt-2 inline-flex items-center justify-center gap-1.5 py-2 rounded-xl bg-surface-container-high hover:bg-on-surface hover:text-surface text-on-surface font-label-caps text-label-caps uppercase tracking-wider transition-all">
               <span>PESAN VIA WHATSAPP</span>
               <ArrowUpRight className="w-4 h-4" />
             </Link>
@@ -98,7 +98,7 @@ export function ProductShowcaseSection() {
               <span className="font-headline-sm text-headline-sm text-tertiary">Rp 185K</span>
             </div>
             <p className="font-body-sm text-body-sm text-on-surface-variant">Hitam pekat doff dengan strip reflektif khusus laga malam.</p>
-            <Link href="https://wa.me/6281234567890?text=Halo%20VOLTRA%2C%20saya%20tertarik%20pesan%20Stealth%20Raven" className="w-full mt-2 inline-flex items-center justify-center gap-1.5 py-2 rounded-xl bg-surface-container-high hover:bg-on-surface hover:text-surface text-on-surface font-label-caps text-label-caps uppercase tracking-wider transition-all">
+            <Link href="https://wa.me/6281234567890?text=Halo%20KING SPORT%2C%20saya%20tertarik%20pesan%20Stealth%20Raven" className="w-full mt-2 inline-flex items-center justify-center gap-1.5 py-2 rounded-xl bg-surface-container-high hover:bg-on-surface hover:text-surface text-on-surface font-label-caps text-label-caps uppercase tracking-wider transition-all">
               <span>PESAN VIA WHATSAPP</span>
               <ArrowUpRight className="w-4 h-4" />
             </Link>
@@ -137,7 +137,7 @@ export function ProductShowcaseSection() {
             </ul>
           </div>
           <div className="pt-space-lg">
-            <Link href="https://wa.me/6281234567890?text=Halo%20VOLTRA%2C%20saya%20mau%20bikin%20custom%20jersey%20tim%20futsal" className="w-full inline-flex items-center justify-center gap-2 py-3 rounded-full bg-primary-container text-on-primary-container hover:bg-surface hover:text-on-surface font-label-caps text-label-caps uppercase tracking-wider transition-all font-bold">
+            <Link href="https://wa.me/6281234567890?text=Halo%20KING SPORT%2C%20saya%20mau%20bikin%20custom%20jersey%20tim%20futsal" className="w-full inline-flex items-center justify-center gap-2 py-3 rounded-full bg-primary-container text-on-primary-container hover:bg-surface hover:text-on-surface font-label-caps text-label-caps uppercase tracking-wider transition-all font-bold">
               <span>KONSULTASI DESAINER</span>
               <span className="material-symbols-outlined text-[18px]">chat</span>
             </Link>
