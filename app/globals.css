@@ -1,26 +1,80 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-surface-container-highest: #e5e2dc;
+  --color-secondary: #625d5c;
+  --color-inverse-on-surface: #f3f0ea;
+  --color-primary-container: #d9f942;
+  --color-on-error-container: #93000a;
+  --color-secondary-container: #e9e1df;
+  --color-surface-container-low: #f6f3ed;
+  --color-on-surface-variant: #454934;
+  --color-inverse-surface: #31312d;
+  --color-tertiary: #b02f00;
+  --color-tertiary-fixed-dim: #ffb5a0;
+  --color-inverse-primary: #b5d314;
+  --color-on-secondary-container: #686362;
+  --color-surface-bright: #fcf9f3;
+  --color-tertiary-container: #ffe5de;
+  --color-background: #fcf9f3;
+  --color-on-secondary-fixed-variant: #4a4644;
+  --color-on-primary-fixed-variant: #404c00;
+  --color-surface-variant: #e5e2dc;
+  --color-on-tertiary-fixed: #3b0900;
+  --color-on-tertiary: #ffffff;
+  --color-on-tertiary-container: #c33500;
+  --color-error: #ba1a1a;
+  --color-on-secondary-fixed: #1e1b1a;
+  --color-surface-dim: #dcdad4;
+  --color-primary-fixed: #d1f039;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container: #f0eee8;
+  --color-surface: #fcf9f3;
+  --color-outline: #767962;
+  --color-primary-fixed-dim: #b5d314;
+  --color-surface-tint: #556500;
+  --color-on-error: #ffffff;
+  --color-on-primary-container: #607100;
+  --color-surface-container-high: #ebe8e2;
+  --color-secondary-fixed: #e9e1df;
+  --color-on-primary-fixed: #181e00;
+  --color-secondary-fixed-dim: #ccc5c3;
+  --color-primary: #556500;
+  --color-on-secondary: #ffffff;
+  --color-on-surface: #1c1c18;
+  --color-on-background: #1c1c18;
+  --color-on-tertiary-fixed-variant: #862200;
+  --color-tertiary-fixed: #ffdbd1;
+  --color-on-primary: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-outline-variant: #c6c9ae;
+
+  --spacing-space-sm: 0.5rem;
+  --spacing-gutter: 1.5rem;
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-xl: 2.5rem;
+  --spacing-space-md: 1rem;
+  --spacing-gutter-sm: 1rem;
+  --spacing-space-xxl: 4rem;
+  --spacing-margin: 2rem;
+  --spacing-margin-sm: 1rem;
+  --spacing-space-lg: 1.5rem;
+
+  --font-sans: var(--font-plus-jakarta-sans);
+  --font-display: var(--font-barlow-condensed);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  .font-headline-sm { font-family: var(--font-barlow-condensed); font-size: 22px; line-height: 26px; letter-spacing: 0.03em; font-weight: 700; }
+  .font-body-sm { font-family: var(--font-plus-jakarta-sans); font-size: 12px; line-height: 18px; font-weight: 500; }
+  .font-headline-xl { font-family: var(--font-barlow-condensed); font-size: 64px; line-height: 64px; letter-spacing: -0.01em; font-weight: 800; }
+  .font-headline-lg { font-family: var(--font-barlow-condensed); font-size: 40px; line-height: 42px; font-weight: 700; }
+  .font-headline-md { font-family: var(--font-barlow-condensed); font-size: 28px; line-height: 32px; letter-spacing: 0.02em; font-weight: 700; }
+  .font-label-caps { font-family: var(--font-barlow-condensed); font-size: 14px; line-height: 16px; letter-spacing: 0.08em; font-weight: 700; }
+  .font-headline-xl-mobile { font-family: var(--font-barlow-condensed); font-size: 36px; line-height: 38px; font-weight: 800; }
+  .font-body-lg { font-family: var(--font-plus-jakarta-sans); font-size: 16px; line-height: 24px; font-weight: 500; }
+  .font-display-hero-mobile { font-family: var(--font-barlow-condensed); font-size: 48px; line-height: 48px; letter-spacing: -0.01em; font-weight: 800; }
+  .font-display-hero { font-family: var(--font-barlow-condensed); font-size: 88px; line-height: 84px; letter-spacing: -0.02em; font-weight: 800; }
+  .font-body-md { font-family: var(--font-plus-jakarta-sans); font-size: 14px; line-height: 22px; font-weight: 400; }
+  .font-label-badge { font-family: var(--font-plus-jakarta-sans); font-size: 11px; line-height: 14px; letter-spacing: 0.04em; font-weight: 700; }
 }
