@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRight, Heart, DesignServices } from "lucide-react";
+import { ArrowUpRight, Heart, Paintbrush } from "lucide-react";
 
 export function ProductShowcaseSection() {
   return (
@@ -113,7 +113,7 @@ export function ProductShowcaseSection() {
               <span className="px-2.5 py-1 rounded-full bg-primary-container text-on-primary-container font-label-badge text-label-badge uppercase font-bold">
                 CUSTOM SQUAD
               </span>
-              <span className="text-primary-container text-2xl">✍️</span>
+              <Paintbrush className="w-6 h-6 text-primary-container" />
             </div>
             <h3 className="font-headline-lg text-headline-lg uppercase text-surface leading-[0.92] tracking-tight">
               BUAT JERSEY TIM KAMU SENDIRI.
