@@ -48,7 +48,7 @@ export function Footer() {
         </div>
         
         <div className="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm text-on-surface-variant">
-          <p>© 2025 PT KING SPORT KREASI ATLETIKA. HAK CIPTA DILINDUNGI. JAKARTA, INDONESIA.</p>
+          <p>© 2024 KING SPORT JERSEY. All rights reserved.</p>
           <div className="flex items-center gap-space-lg font-label-caps text-label-caps uppercase">
             <Link href="#tech-specs" className="hover:text-on-surface transition-colors">SPEK TEKNIS</Link>
             <Link href="#custom-flow" className="hover:text-on-surface transition-colors">FAQ PEMESANAN TIM</Link>
