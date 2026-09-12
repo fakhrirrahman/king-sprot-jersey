@@ -46,7 +46,7 @@ export function CustomBuilderSection() {
           </div>
           
           <div className="pt-space-lg">
-            <Link href="https://wa.me/6281234567890?text=Halo%20KING SPORT%2C%20mau%20tanya%20prosedur%20pembuatan%20custom%20jersey%20squad" className="w-full inline-flex items-center justify-between px-space-lg py-3.5 rounded-full bg-tertiary text-on-tertiary hover:bg-on-surface hover:text-surface font-label-caps text-label-caps uppercase tracking-wider transition-all font-bold group">
+            <Link href="https://wa.me/6281236305053?text=Halo%20KING SPORT%2C%20mau%20tanya%20prosedur%20pembuatan%20custom%20jersey%20squad" className="w-full inline-flex items-center justify-between px-space-lg py-3.5 rounded-full bg-tertiary text-on-tertiary hover:bg-on-surface hover:text-surface font-label-caps text-label-caps uppercase tracking-wider transition-all font-bold group">
               <span>MULAI PESANAN TIM VIA WHATSAPP</span>
               <Send className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>

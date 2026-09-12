@@ -5,7 +5,7 @@ export function FloatingWhatsApp() {
   return (
     <div className="fixed bottom-6 right-6 z-40">
       <Link 
-        href="https://wa.me/6281234567890?text=Halo%20KING SPORT%20Desk" 
+        href="https://wa.me/6281236305053?text=Halo%20KING SPORT%20Desk" 
         target="_blank" 
         rel="noopener noreferrer" 
         className="flex items-center gap-space-xs pl-space-md pr-3 py-2.5 bg-on-surface text-surface rounded-full shadow-2xl border border-surface/20 hover:scale-105 transition-all group"

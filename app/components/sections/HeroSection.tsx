@@ -124,7 +124,7 @@ export function HeroSection() {
             
             {/* Dual Call to Actions */}
             <div className="pt-space-xs flex flex-wrap items-center gap-space-md">
-              <Link href="https://wa.me/6281234567890?text=Halo%20KING SPORT%2C%20saya%20mau%20konsultasi%20custom%20jersey%20squad" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-space-sm pl-space-lg pr-space-xs py-2.5 bg-primary-container text-on-primary-container rounded-full font-label-caps text-label-caps uppercase tracking-wider hover:bg-surface hover:text-on-surface transition-all shadow-md group">
+              <Link href="https://wa.me/6281236305053?text=Halo%20KING SPORT%2C%20saya%20mau%20konsultasi%20custom%20jersey%20squad" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-space-sm pl-space-lg pr-space-xs py-2.5 bg-primary-container text-on-primary-container rounded-full font-label-caps text-label-caps uppercase tracking-wider hover:bg-surface hover:text-on-surface transition-all shadow-md group">
                 <span className="font-bold">PESAN VIA WHATSAPP</span>
                 <span className="w-8 h-8 rounded-full bg-on-surface text-surface flex items-center justify-center group-hover:rotate-45 transition-transform">
                   <ArrowUpRight className="w-4 h-4" />

@@ -20,7 +20,7 @@ export function Header() {
           <Link href="#tech-specs" className="text-on-surface-variant hover:text-on-surface transition-colors">TENTANG LABS</Link>
         </nav>
         <div className="flex items-center gap-space-md">
-          <Link href="https://wa.me/6281234567890?text=Halo%20KING SPORT%2C%20saya%20mau%20konsultasi%20custom%20jersey%20squad" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-space-sm pl-space-md pr-space-xs py-space-xs bg-inverse-surface text-inverse-on-surface rounded-full font-label-caps text-label-caps uppercase tracking-wider hover:bg-on-surface transition-all group">
+          <Link href="https://wa.me/6281236305053?text=Halo%20KING SPORT%2C%20saya%20mau%20konsultasi%20custom%20jersey%20squad" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-space-sm pl-space-md pr-space-xs py-space-xs bg-inverse-surface text-inverse-on-surface rounded-full font-label-caps text-label-caps uppercase tracking-wider hover:bg-on-surface transition-all group">
             <span className="group-hover:text-primary-container transition-colors">PESAN VIA WHATSAPP</span>
             <span className="w-7 h-7 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center">
               <ArrowUpRight className="w-4 h-4" />

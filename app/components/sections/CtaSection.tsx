@@ -22,7 +22,7 @@ export function CtaSection() {
         </p>
         
         <div className="pt-space-md flex flex-col sm:flex-row items-center gap-space-md">
-          <Link href="https://wa.me/6281234567890?text=Halo%20KING SPORT%2C%20saya%20siap%20pesan%20jersey%20squad" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-space-md px-space-xl py-4 bg-primary-container text-on-primary-container hover:bg-surface hover:text-on-surface rounded-full font-headline-sm text-headline-sm uppercase tracking-wider transition-all shadow-xl font-black group">
+          <Link href="https://wa.me/6281236305053?text=Halo%20KING SPORT%2C%20saya%20siap%20pesan%20jersey%20squad" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-space-md px-space-xl py-4 bg-primary-container text-on-primary-container hover:bg-surface hover:text-on-surface rounded-full font-headline-sm text-headline-sm uppercase tracking-wider transition-all shadow-xl font-black group">
             <span>CHAT WHATSAPP SEKARANG (+62)</span>
             <span className="w-8 h-8 rounded-full bg-on-surface text-surface flex items-center justify-center group-hover:rotate-45 transition-transform">
               <ArrowUpRight className="w-4 h-4" />

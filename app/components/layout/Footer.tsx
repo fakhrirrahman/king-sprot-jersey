@@ -35,12 +35,12 @@ export function Footer() {
             <p className="font-body-sm text-body-sm text-on-surface-variant">
               Terhubung langsung dengan tim produksi dan tailoring kami di Tebet, Jakarta Selatan. Custom nameset cepat dan pengiriman tim tepat waktu.
             </p>
-            <Link href="https://wa.me/6281234567890?text=Halo%20KING SPORT%20Production%20Desk" className="inline-flex items-center justify-between px-space-md py-space-sm bg-surface-container-high hover:bg-surface-container-highest text-on-surface rounded-lg font-label-caps text-label-caps uppercase tracking-wider transition-colors">
+            <Link href="https://wa.me/6281236305053?text=Halo%20KING SPORT%20Production%20Desk" className="inline-flex items-center justify-between px-space-md py-space-sm bg-surface-container-high hover:bg-surface-container-highest text-on-surface rounded-lg font-label-caps text-label-caps uppercase tracking-wider transition-colors">
               <span>MEJA PRODUKSI WHATSAPP</span>
               <MessageCircle className="w-5 h-5 text-tertiary" />
             </Link>
             <div className="flex items-center gap-space-md pt-space-xs">
-              <Link href="#" className="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors">Instagram @kingsport.idn</Link>
+              <Link href="https://www.instagram.com/king.sport.jersey/" className="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors">Instagram @king.sport.jersey</Link>
               <span className="text-outline-variant">•</span>
               <Link href="#" className="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors">TikTok @kingsport.futsal</Link>
             </div>
@@ -52,7 +52,7 @@ export function Footer() {
           <div className="flex items-center gap-space-lg font-label-caps text-label-caps uppercase">
             <Link href="#tech-specs" className="hover:text-on-surface transition-colors">SPEK TEKNIS</Link>
             <Link href="#custom-flow" className="hover:text-on-surface transition-colors">FAQ PEMESANAN TIM</Link>
-            <Link href="https://wa.me/6281234567890" className="hover:text-on-surface transition-colors">HOTLINE WHATSAPP</Link>
+            <Link href="https://wa.me/6281236305053" className="hover:text-on-surface transition-colors">HOTLINE WHATSAPP</Link>
           </div>
         </div>
       </div>

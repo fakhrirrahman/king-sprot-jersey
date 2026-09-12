@@ -48,7 +48,7 @@ export function PerformanceSection() {
             </div>
             
             <div className="pt-space-xs">
-              <Link href="https://wa.me/6281234567890?text=Halo%20KING SPORT%2C%20saya%20mau%20request%20sampel%20kain%20swatch" className="inline-flex items-center gap-space-xs px-space-lg py-3 rounded-full bg-surface text-on-surface hover:bg-primary-container hover:text-on-primary-container font-label-caps text-label-caps uppercase tracking-wider transition-all font-bold">
+              <Link href="https://wa.me/6281236305053?text=Halo%20KING SPORT%2C%20saya%20mau%20request%20sampel%20kain%20swatch" className="inline-flex items-center gap-space-xs px-space-lg py-3 rounded-full bg-surface text-on-surface hover:bg-primary-container hover:text-on-primary-container font-label-caps text-label-caps uppercase tracking-wider transition-all font-bold">
                 <span>MINTA SAMPLE KAIN TIM GRATIS</span>
                 <span className="material-symbols-outlined text-[18px]">package_2</span>
               </Link>
